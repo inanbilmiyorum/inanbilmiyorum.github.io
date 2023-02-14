@@ -1,1 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deneme</title>
+    <style>
+        body{
+            margin: 0px;
+        }
+        .header{
+            background-image: linear-gradient(to left, red,blue);
+            padding: 20px;       
+        } 
+        .header a{
+            color: white;
+            font-size: 15px;
+            text-decoration: none;
+            font-family: bahnschrift;
+            padding: 20px;
+            margin-left: 150px;
+        }
+        .header a:hover{
+            background-color: red   ;
+            border-radius: 10px;
+            color: white;
+        }
+        .kckp{
+            color: gray;
+            font-family: bahnschrift;
+            letter-spacing: 2px;
+            font-size: 17px;
+        }
+        .isim{
+            font-family: bahnschrift;
+            font-size: 45px;
 
+        }
+        .ince{
+            font-family: "Segoe UI";
+            font-size: 30px;
+        }
+        .bolum{
+            position: absolute;
+            top:215px;
+            left: 180px;
+
+        }
+        input.butonx{
+         padding: 15px;
+         border: 0px;
+         border-radius: 10px;
+         font-family:bahnschrift;
+         letter-spacing: 1px;
+         background-image: linear-gradient(to left, blue, violet);
+         color:white;
+        }
+        .super{
+            position: absolute;
+            top:170px;
+            right: 100px;
+
+        }
+
+        @keyframes floater{
+            0%{transform: translateY(-1.5%);transition: ease 0.5s;}
+            50%{transform: translateY(1.5%);transition: ease 0.5s;}
+        }
+
+        .float-area{
+            height:100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .floating-img{
+            transform: translateY(-1.5%);
+            animation: floater 1.5s infinite;
+            transition: ease 0.5s;
+        }
+        .altdiv{
+            background-color: gainsboro;
+            padding: 10px;
+            width: 200px;
+            float: left;
+            margin-left: 100px;
+            border-radius: 20px;
+            background-image: linear-gradient(to left, violet, blue);
+        }
+        div.altdiv p{
+            text-align: center;
+            padding: 5px;
+            margin-right: 10px;
+            font-family: bahnschrift;
+            font-size: 22px;
+            color: white;
+        }
+
+       div.abec p{
+        padding: 20px;
+         border-radius: 15px;
+         border:3px solid black;
+         font-family:bahnschrift;
+         letter-spacing: 1px;
+         background-image: linear-gradient(to left, blue, red);
+         color:white;
+         text-decoration: none;
+
+
+       }
+       .soner{
+        background-image: linear-gradient(to left, red, blue);
+        padding: 20px;
+
+       }
+       .abec{
+        width: 300px;
+        text-align: center;
+        margin-left: 580px;
+       }
+       div.bolum input:hover{
+       padding: 25px;
+       }
+       div.asd input:hover{
+       padding: 25px;
+       }
+.thor{
+    width: 687px;
+    height: 600px;
+    position: absolute;
+    top: 1100px;
+    left: 60px;
+}
+.asd{
+    position:absolute;
+    top: 1200px;
+    right: 200px;
+}
+.cele{
+    width: 300px;
+        text-align: center;
+        margin-left: 580px;
+
+}
+div.cele p{
+        padding: 20px;
+         border-radius: 15px;
+         border:3px solid black;
+         font-family:bahnschrift;
+         letter-spacing: 1px;
+         background-image: linear-gradient(to left, blue, red);
+         color:white;
+         text-decoration: none;
+         }
+         .aros{
+            background-image: linear-gradient(to left, red, blue);
+        padding: 20px;
+        margin-top: 200px;
+         }
+         .piderman{
+            width: 500px;
+            height: 800px;
+            position: absolute;
+            top: 1950px;
+            right: 500px;
+            z-index:-1 ;
+         }
+       .ere{
+        width: 300px;
+        text-align: center;
+        margin-left: 580px;
+       }
+       div.ere p{
+        padding: 40px;
+         border-radius: 15px;
+         border:3px solid black;
+         font-family:bahnschrift;
+         letter-spacing: 1px;
+         background-image: linear-gradient(to left, blue, red);
+         color:white;
+         text-decoration: none;
+         position: absolute;
+         top: 2000px;
+         left: 100px;
+         width: 200px;
+         height: 100px;
+       }
+       .qre{
+        width: 300px;
+        text-align: center;
+        margin-left: 580px;
+       }
+       .mre{
+        width: 300px;
+        text-align: center;
+        margin-left: 580px;
+       }
+       .eve{
+        width: 300px;
+        text-align: center;
+        margin-left: 580px;
+       }
+       div.eve p{
+        padding: 40px;
+         border-radius: 15px;
+         border:3px solid black;
+         font-family:bahnschrift;
+         letter-spacing: 1px;
+         background-image: linear-gradient(to left, blue, red);
+         color:white;
+         text-decoration: none;
+         position: absolute;
+         top: 2000px;
+         right: 100px;
+         width: 200px;
+         height: 100px;
+       }
+       div.mre p{
+        padding: 40px;
+         border-radius: 15px;
+         border:3px solid black;
+         font-family:bahnschrift;
+         letter-spacing: 1px;
+         background-image: linear-gradient(to left, blue, red);
+         color:white;
+         text-decoration: none;
+         position: absolute;
+         top: 2500px;
+         right: 100px;
+         width: 200px;
+         height: 100px;
+       }
+       div.qre p{
+        padding: 40px;
+         border-radius: 15px;
+         border:3px solid black;
+         font-family:bahnschrift;
+         letter-spacing: 1px;
+         background-image: linear-gradient(to left, blue, red);
+         color:white;
+         text-decoration: none;
+         position: absolute;
+         top: 2500px;
+         left: 100px;
+         width: 200px;
+         height: 100px;
+       }
+
+    </style>
+</head>
+<body>
+<div class="header">
+    <a href="anasayfa.html">ANASAYFA</a>
+    <a href="hakkimda.html">HAKKIMDA</a>
+    <a href="referanslarim.html">REFERANSLARIM</a>
+    <a href="blog.html">BLOG</a>
+    <a href="iletisim.html">İLETİŞİM</a>
+</div>
+<div class="bolum">
+    <p class="kckp">Siteme Hoşgeldiniz!</p>
+    <p class="isim">BEN ERDEM YÜCE GÜL</p>
+    <p class="ince">LOREM IPSUM DOLOR</p>
+    <input type="submit" class="butonx" value="ÖĞRENECEKLERİM">
+</div>
+<div class="float-area">
+<img class="super floating-img" src="supermen.png">
+</div>
+<div class="soner">
+    <div class="abec">
+    <p>LOREM IPSUM</p>
+</div>
+
+</div>
+
+
+<div class="float-area"></div>
+<img src="thor.png" class="thor floating-img">
+
+<div class="asd">
+    <p class="kckp">Hedefim ne?</p>
+    <p class="isim">BİR YAZILIMCI OLMAK</p>
+    <p class="ince">LOREM IPSUM DOLOR SIT AMET.</p><BR>
+    <input type="submit" class="butonx" value="ÖĞRENECEĞİM ÇOK ŞEY VAR">
+</div>
+<div class="aros">
+<div class="cele">
+    <p>ŞU AN ÖĞRENDİĞİM:CSS</p>
+
+</div>
+</div>
+<div class="float-area"></div>
+<img src="spiderman.png" class="floating-img piderman">
+
+
+    <div class="ere">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi in quibusdam ex harum tempora.</p>
+</div>
+<div class="qre">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi in quibusdam ex harum tempora.</p>
+</div>
+<div class="mre">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi in quibusdam ex harum tempora.</p>
+</div>
+<div class="eve">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi in quibusdam ex harum tempora.</p>
+</div>
+
+
+<div class="aros">
+    <div class="cele">
+        <p>LOREM IPSUM DOLOR SIT.</p>
+    
+    </div>
+    </div>
+
+</body>
+</html>
